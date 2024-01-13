@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;1,300;1,400&display=swap');
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color: black; 
+}
+
+.fsection-title{
+    font-weight: bolder;
+    font-size: 57px;
+    
+}
+
+.sec-p{
+    font-weight: 570;
+    font-size: 25px;
+}
+
+.b:hover{
+    background-color:rgb(255, 255, 255) ;
+    color:black;
+}
+.launch-time{
+    display: flex;
+    padding-left:37%;
+    padding-top: 8%;
+}
+
+.launch-time div{
+     flex-basis: 100px;
+}
+
+.launch-time div p{
+    font-size:40px;
+    margin-bottom:-14px;
+}
+.new-watch{
+    width: 50%;
+    height:auto;
+    margin-left:35%;
+    /*filter: drop-shadow(5px 5px 6px rgb(245, 245, 186));*/
+    animation: mover 1s infinite alternate;
+}
+
+
+@keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-8px); }
+}
+
+.feature{
+    animation:fade-in linear;
+    animation-timeline: view();
+    animation-range-start:1px;
+    animation-range-end: 180px;
+}
+
+@keyframes fade-in{
+    from{scale:.8; opacity:0;}
+    to{scale:1; opacity:1}
+}
+
+.feat-title{
+
+    font-weight:600;
+    line-height:24px;
+    display:inline-block;
+    margin-bottom:15px;
+    position:relative;
+   padding-left: 196px;
+   padding-top:120px;
+   
+}
+
+.feature-icons{
+    width:71px;
+    height:71px;
+    margin-left:44%    
+}
+
+.new-watch2{
+    
+    width:306px;
+    height:auto;
+    margin-left:6%;
+    margin-top: 20%;
+    margin-bottom: 20%;
+    animation:fade-in linear;
+    animation-timeline: view();
+    animation-range-start:1px;
+    animation-range-end: 350px;
+}
+
+@keyframes fade-in{
+    from{scale:.8; opacity:0;}
+    to{scale:1; opacity:1}
+}
+
+.about-title{
+    color:white;
+    font-weight:600;
+    line-height:24px;
+    display:inline-block;
+    margin-bottom:15px;
+    position:relative;
+   padding-left: 29%;
+   padding-top:9%;
+   animation:fade-in linear;
+    animation-timeline: view();
+    animation-range-start:1px;
+    animation-range-end: 300px;
+}
+
+@keyframes fade-in{
+    from{scale:.8; opacity:0;}
+    to{scale:1; opacity:1}
+}  
+
+
+.about-p{
+    color:white;
+    font-weight: 700; 
+    font-size:110%;
+    margin-left:7%;
+    padding-bottom: 3%;
+    animation:fade-in linear;
+    animation-timeline: view();
+    animation-range-start:2px;
+    animation-range-end: 200px;
+}
+
+@keyframes fade-in{
+    from{scale:.8; opacity:0;}
+    to{scale:1; opacity:1}
+} 
